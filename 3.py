@@ -11,7 +11,7 @@ for i in range(n - 1):
         answer1 += 1
     else:
         answer = max(answer, answer1)
-        demoAnswer = 1
+        answer1 = 1
 
 print(array, 'Длина максимальной последовательности:', answer)
 
